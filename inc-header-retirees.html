@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="logo">
+        <a href="index.html"><img alt="Sherwin Williams Logo" src="images/sw-logo.jpg" width="118" height="59"></a>
+    </div>
+    <a class="skip-nav" href="https://www.sherwinbenefits.com/#news-&amp;-announcements">Skip Navigation</a>
+    <div class="header_right">
+        <div class="mobile_nav_button phone" onclick="loadMobileNav ()"></div>
+        <div class="above-nav no_phone">
+            <ul class="top-nav" role="navigation">
+                <li class="top-level"><a href="life-events.html" target="_self" class="">Life Events</a></li>
+                <li class="top-level"><a href="contacts.html" target="_self" class="">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="header-buttons">
+            <div class="search_button" tabindex="0" role="button" aria-label="Display hidden site search field"  onclick="loadSearch ()"></div>
+            <a aria-label="help" href="benefits-questions.html" class="question_button">?</a>
+        </div>
+       
+    </div>
+    <div class="inline-block">
+     <div class="search_bar">
+         <form action="search.html" class="ccm-search-block-form">
+        <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search..." required class="ccm-search-block-text">
+      </form>
+        </div>
+        </div>
+</div> 
+  
+<div class="main_navigation_phone phone" style="opacity: 1;">
+    <div class="nav_content small_shadow">
+        <div class=""><button class="mobile-close">
+                <icon class="icon-cancel" aria-hidden="true"></icon><span class="sr-only">Close</span>
+            </button></div>
+        <ul class="nav mobile-nav" role="menubar">
+            <li class="nav-first has-submenu top-level-link green_vertical"><a class="nav-first has-submenu top-level-link green_vertical" tabindex="-1" role="menuitem" aria-haspopup="true" aria-expanded="false">My Retirement</a>
+                <div class="moreBtn" id="wealth-building" tabindex="0"><span class="sr-only">More </span><span class="nav_dropdown_arrow_down"></span></div>
+                <ul class="subnav" aria-labelledby="wealth-building">
+                    <li class="nav-first secondary-level-link"><a href="important-contacts.html" target="_self" class="nav-first secondary-level-link" tabindex="-1" role="menuitem">Important Contacts</a></li>                 
+                </ul>
+            </li>
+            <li class="has-submenu top-level-link blue_vertical"><a class="has-submenu top-level-link blue_vertical" tabindex="-1" role="menuitem" aria-haspopup="true" aria-expanded="false">My Health and Security</a>
+                <div class="moreBtn" id="wealth-protection" tabindex="0"><span class="sr-only">More </span><span class="nav_dropdown_arrow_down"></span></div>
+                <ul class="subnav" aria-labelledby="wealth-protection">
+                    <li class="nav-first secondary-level-link has-submenu"><a href="medical-dental-vision.html" target="_self" class="nav-first secondary-level-link has-submenu" tabindex="-1" role="menuitem">Medical Coverage</a>
+                        <div class="moreBtn" id="wealth-protection" tabindex="0"><span class="sr-only">More </span><span class="nav_dropdown_arrow_down"></span></div>
+                        <ul class="subnav" aria-labelledby="">                          
+                            <li><a href="world-business-traveler-plan.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">World Buisiness Traveler Plan</a></li>
+                             <li><a href="aetna-tools-resources.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Aetna Tools & Resources </a></li>   
+                            <li><a href="medicare-advantage-plans.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Medicare Advantage Plans</a></li>
+                            <li><a href="health-resource-coverage.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Health Coverage Resources </a></li>
+                            <li><a href="vital-savings.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Vital Savings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-last secondary-level-link has-submenu"><a href="#" target="_self" class="nav-last secondary-level-link has-submenu" tabindex="-1" role="menuitem">Voluntary Benefits</a>
+                        <div class="moreBtn" id="wealth-protection" tabindex="0"><span class="sr-only">More </span><span class="nav_dropdown_arrow_down"></span></div>
+                        <ul class="sub-nav show-menu" role="menubar">
+                            <li><a href="auto-home-insurance.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Auto and Home Insurance</a></li>
+                            <li><a href="pet-insurance.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Pet Insurance</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="has-submenu top-level-link orange_vertical"><a class="has-submenu top-level-link orange_vertical" tabindex="-1" role="menuitem" aria-haspopup="true" aria-expanded="false">My Extras</a>
+                <div class="moreBtn" id="personal-well-being" tabindex="0"><span class="sr-only">More </span><span class="nav_dropdown_arrow_down"></span></div>
+                <ul class="subnav" aria-labelledby="personal-well-being">                   
+                    <li><a href="credit-union.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">Credit Union</a></li>
+                    <li><a href="sw-benefits-discount.html" target="_self" class="secondary-level-link" role="menuitem" tabindex="-1">SW Benefits Discount Hub</a></li>
+                </ul>
+            </li>
+            <li class="top-level-link indigo"><a href="life-events.html" target="_self" class="top-level-link indigo" tabindex="-1" role="menuitem">Life Events</a></li>
+            <li class="top-level-link orange"><a href="contacts.html" target="_self" class="top-level-link orange" tabindex="-1" role="menuitem">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="dropdown-area">
+    </div>
+</div>
+<script>
+
+     $(document).on('click', '.mobile-close', function() {
+            $('.nav_content').style('display', 'none');
+        });
+
+        $('a.has-submenu').on('click', function(e) {
+            $(this).parent('li').children('div').toggleClass('open');
+            //            $('.main_navigation_phone .nav_content ul li ul').not($(this).parent('li').children('ul').slideDown()).slideUp();            
+            $(this).parent('li').children('ul').slideToggle();
+            $('.main_navigation_phone .nav_content ul li a').not($(this).prev('a')).removeClass('subnav_open');
+
+        });    
+</script>
