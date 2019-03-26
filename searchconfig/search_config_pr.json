@@ -1,0 +1,9 @@
+{
+    "main":[],
+    "global":[],
+    "pdf_limit":"",
+    "html_only":"n",
+    "classes":["tipue-search-content-pr"],
+    "excludes":["no_use.pdf"]
+}
+
