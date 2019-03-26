@@ -1,0 +1,128 @@
+ /** Dropdown content **/
+ .hidden {
+     display: none;
+ }
+
+ .dropdown_wrapper {
+     clear: both;
+     margin-bottom: 0px;
+     float: left;
+     width: 100%;
+ }
+
+ .window_shade {
+     overflow: hidden;
+     display: table;
+     position: relative;
+     cursor: pointer;
+     float: left;
+     padding-bottom: 20px;
+ }
+
+ .dropdown_title_container {
+     display: table-cell;
+     vertical-align: middle;
+     height: 50px;
+     margin: 0 auto;
+     text-align: left;
+     text-decoration: none;
+ }
+
+ .dropdown_title {
+     display: block;
+     line-height: normal;
+     color: #d31e11;
+     font-size: 22px;
+     line-height: 26px;
+ }
+
+ .dropdown_title:hover,
+ .window_shade:focus .dropdown_title,
+ .window_shade.dropdown_on .dropdown_title {
+     color: #000;
+ }
+td.before{min-width: 25px;}
+
+ .before:before {
+     content: url(../images/paint_bucket_red.png);
+     padding-right: 8px;
+ }
+
+ .window_shade.dropdown_on .before:before {
+     content: " -";
+ }
+
+ .dropdown_content {
+     padding: 10px 0;
+     float: left;
+     width: 100%;
+     display: none;
+ }
+
+ column-count: 1;
+ -moz-column-count: 1;
+ -webkit-column-count: 1;
+ }
+
+ /*Tablet Portrait*/
+ /* Display at 768px */
+ @media screen and (max-width:1023px) {
+     .window_shade {}
+
+     .dropdown_title_container {
+         width: 315px;
+     }
+
+     .dropdown_content {
+         padding: 20px;
+         column-count: 1;
+         width: 325px;
+     }
+
+     -moz-column-count: 1;
+     -webkit-column-count: 1;
+ }
+
+ /*Phone*/
+ /* Phone width is 280-320px in portrait */
+ @media screen and (max-width:767px) {
+     .no_phone {
+         display: none;
+     }
+
+     .phone {
+         display: block;
+     }
+
+     .dropdown_wrapper {
+         clear: both;
+         margin-bottom: 10px;
+         float: left;
+     }
+
+     .window_shade {}
+
+     .dropdown_title_container {
+         display: table-cell;
+         vertical-align: middle;
+         width: 100%;
+         height: auto;
+         margin: 0 auto;
+         text-align: left;
+         text-decoration: none;
+     }
+
+     .dropdown_title {
+         display: block;
+         line-height: normal;
+     }
+
+     .dropdown_content ul li,
+     .dropdown_content ol li {
+         font-size: 14px;
+     }
+
+     -moz-column-count: 1;
+     -webkit-column-count: 1;
+ }
+ }

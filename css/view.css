@@ -1,0 +1,139 @@
+  .header .header_right .navigation .nav li a,
+  h2,
+  h1,
+  .quick_link a:hover {
+      color: #d31e11;
+  }
+
+  .base_color_area,
+  .header .header_right .navigation .nav li a:hover,
+  .header .header_right .navigation .nav li a.nav-selected {
+      background: #d31e11;
+  }
+
+  .header .header_right .search_button:hover,
+  .header .header_right .question_button:hover,
+  .flowplayer .fp-progress,
+  .formblock .errors,
+  .formblock .success,
+  .button_link,
+  .formblock .submit,
+  .ccm-search-block-form .ccm-search-block-submit,
+  .actions .ccm-input-submit {
+      background-color: #d31e11;
+  }
+
+  .down_arrow_color {
+      border-top-color: #d31e11;
+  }
+
+  .header {
+      border-bottom-color: #d31e11;
+  }
+
+  .formblock .field input,
+  .formblock .field textarea,
+  fieldset {
+      border-color: #d31e11;
+  }
+
+  .ccm-search-block-form .ccm-search-block-submit {
+      border-left-color: #d31e11;
+      background-image: url(../images/vertical_template_sprite.png);
+  }
+.checkmark_list a{    display: block;}
+.medical tr td{border-bottom: 1px solid #006688; vertical-align: middle;}
+.medical tr td:first-child{border-right: 1px solid #006688;     text-align: left;}
+.static-info-area a{
+    white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+width: 183px;
+    font-size: 12px;
+}
+  @media screen and (max-width:767px) {
+
+      .header .header_right .mobile_nav_button,
+      .header .navigation {
+          background-color: #d31e11;
+      }
+
+      .header .navigation li a {
+          border-top-color: #d31e11;
+          border-bottom-color: #990000;
+      }
+  }
+
+  .fancybox-margin {
+      margin-right: 17px;
+  }
+
+  iframe#_hjRemoteVarsFrame {
+      display: none !important;
+      width: 1px !important;
+      height: 1px !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+  }
+
+  .ccm-search-block-form {
+      width: 300px;
+      float: right;
+      height: 30px;
+      padding: 5px 0px;
+  }
+
+  .ccm-search-block-form .ccm-search-block-text {
+      display: block;
+      width: 249px;
+      float: left;
+      border: 1px solid #ddd;
+/*
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+*/
+      background: #fff;
+      font-size: 14px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      height: 30px;
+      margin: 0px;
+      padding: 0px 10px;
+  }
+
+  .ccm-search-block-form .ccm-search-block-submit {
+      display: block;
+      float: left;
+      margin: 0px;
+      border: none;
+      cursor: pointer;
+      background-color: #666;
+      background-position: -30px 0px;
+      background-repeat: no-repeat;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 30px;
+      width: 30px;
+      padding: 0px;
+      border-left: 1px solid #000;
+  }
+
+  .ccm-search-block-form .ccm-search-block-submit:hover,
+  .ccm-search-block-form .ccm-search-block-submit:focus {
+      background-color: #fff;
+      background-position: -30px -30px;
+  }
+   
+    .base_color_area, .header .header_right .navigation .nav li a:hover, .header .header_right .navigation .nav li a.nav-selected {background:#d31e11;}
+    .header .header_right .search_button:hover, .header .header_right .question_button:hover, .flowplayer .fp-progress, .formblock .errors,.formblock .success, .button_link, .formblock .submit, .ccm-search-block-form .ccm-search-block-submit, .actions .ccm-input-submit{background-color:#d31e11;}
+    .down_arrow_color {border-top-color:#d31e11;}
+    .header {border-bottom-color:#d31e11;}
+    .formblock .field input, .formblock .field textarea, fieldset  {border-color:#d31e11;}
+    .ccm-search-block-form .ccm-search-block-submit {border-left-color:#d31e11;background-image:url(../images/vertical_template_sprite.png);}
+table.contribution tr td ul li, table.contribution tr td ol li{    font-size: 14px;     text-align: left;}
+    @media screen and (max-width:767px) {
+        .header .header_right .mobile_nav_button, .header .navigation {background-color:#d31e11;}
+        .header .navigation li a {border-top-color:#d31e11;border-bottom-color:#990000;}
+    }

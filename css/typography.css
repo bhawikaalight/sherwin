@@ -1,0 +1,98 @@
+/*Reset*/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, font, img, ins, kbd, q, s, samp,
+  small, strike, strong, tt, var,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;vertical-align: baseline;}
+  /* remember to define focus styles! */
+  body {line-height: 1;font-size:12px;}
+  /* tables still need 'cellspacing="0"' in the markup */
+  table {border-collapse: separate;border-spacing: 0;}
+  caption, th, td {text-align: left;font-weight: normal;vertical-align: top;}
+  blockquote:before, blockquote:after,
+  q:before, q:after {content: "";}
+  blockquote, q {quotes: "" "";}
+  .clear {clear:both;}
+  strong {font-weight:bold;}
+  em {font-style:italic;}
+/*Generic Typography*/
+body {font-family: 'Source Sans Pro', arial, sans-serif;font-weight:400;font-size:18px;color:#333;background: #ededed;}
+p{font-size: 16px;line-height: 20px;padding-bottom: 20px;}
+h1 {font-size:32px;padding-bottom:10px;line-height: 36px;}
+h2 {font-size:24px;padding-bottom:10px;}
+h3{font-size:18px;color: #007083;padding-bottom:10px;font-weight: bold;}
+strong, b {font-weight:700;}
+a {text-decoration:none;/**color: #014086;**/color:#0f6a15;}
+a:hover {color:#09700e;}
+hr{border: 0;color: #535456;background: #535456;width: 100%;height: 1px;margin: 0 0 10px 0;}
+.medium {font-weight:600;}
+.light {font-weight:300;}
+.uppercase {text-transform:uppercase;}
+.button_link {display:inline-block;border-radius:5px;background:#666 url(../images/button_arrow.png) no-repeat right center;color:#fff;text-decoration:none;padding:10px 40px 10px 8px;font-size:16px;font-weight:700;}
+    .button_link:hover, .button_link:focus {background-color:#000;color:#fff;}
+    .button_link:focus {outline: 1px dotted #000 !important;}
+.button_link_white{display:inline-block;border-radius:5px;background:#fff url(../images/button_arrow_red.png) no-repeat right center;color:#d31e11;text-decoration:none;padding:10px 40px 10px 8px;font-size:20px;font-weight:700;}
+.quick_link {float:left;width:32%;padding-right:1%;}
+.quick_link a {display:block;padding-bottom:20px;text-decoration:none;font-size:15px;color:#333333;padding-left:25px;position:relative;}
+.quick_link a span {background:url(../images/vertical_template_sprite.png) no-repeat -67px -36px;position:absolute;display:block;top:0px;left:0px;width:17px;height:18px;}
+.headline {font-weight:300;font-size:44px;padding-bottom:10px;}
+.headine_text {font-size:24px;line-height:32px;color:#333333;padding-bottom:10px;}
+.content ul, .content ol {margin:0 0 10px 30px;}
+.content ul{list-style-type: square;}
+    .content ul li, .content ol li{font-size: 16px;line-height: 20px;padding-bottom: 10px;}
+.static-info-area ul, .static-info-area ol{margin:0 0 10px 15px;}
+.checkmark_list{list-style-image: url(../images/checkmark.png);}
+.extra_left{margin: 0 0 10px 50px !important;}
+.no_bullet{list-style-type: none !important;}
+small {font-size:12px;font-style: italic;}
+.responsive_image{}
+.small {font-size: 12px;}
+.green-font {color: #13851b !important;}
+
+.mceContentBody ul, .mceContentBody ol{margin-left: 30px;}
+.mceContentBody ul li,  .mceContentBody ol li{font-size: 16px;line-height: 20px;}
+
+/*Tables*/
+table.contribution{width: 100%;}
+table.contribution.limited_width{width: 300px;}
+    table.contribution tr:nth-of-type(odd){background: #efeade;}
+    table.contribution tr th{font-size: 14px;font-weight: bold;background: #006688;padding: 5px;color: #fff;text-align: center;}
+     table.contribution tr td{font-size: 14px;padding: 5px 5px 5px 10px;text-align: center;}
+     table.contribution tr td.middle{border-right: 2px solid #006688;border-left: 2px solid #006688;}
+     table.contribution tr td.right{border-left: 2px solid #006688;}
+     
+table.contacts{width: 100%;}
+table.contacts.limited_width{width: 500px;}
+    table.contacts tr:nth-of-type(odd){background: #d7f1fa;}
+    table.contacts tr th{font-size: 14px;font-weight: bold;background: #006688;padding: 5px;color: #fff;text-align: center;}
+     table.contacts tr td{font-size: 14px;padding: 5px 5px 5px 10px;text-align: left;}
+     table.contacts tr td.middle{border-right: 2px solid #006688;border-left: 2px solid #006688;}
+     table.contacts tr td.right{border-left: 2px solid #006688;}
+     
+table.red_banner{width: 100%}
+table.red_banner tr td{vertical-align: middle;}
+
+table.illness_benefits{width: 100%;}
+    table.illness_benefits tr:nth-of-type(even){background: #f3efe8;}
+    table.illness_benefits tr th{font-size: 14px;font-weight: bold;background: #a09074;padding: 5px;color: #fff;text-align: left;border-right: 1px solid #fff;}
+    table.illness_benefits tr th.centered{text-align: center;}
+    table.illness_benefits tr td{font-size: 14px;padding: 5px 5px 5px 10px;text-align: left;border-bottom: 1px solid #afa289;border-top: 1px solid #afa289;}
+    table.illness_benefits tr td.right{border-left: 2px solid #afa289;}
+
+
+/*Tablet*/
+@media screen and (max-width:1023px) {
+    .quick_link {width:48%;padding-right:2%;}
+    .headine_text {font-size:18px;line-height:26px;}
+}
+/*Phone*/
+@media screen and (max-width:767px) {
+    .headine_text {font-size:16px;line-height:22px;}
+    .responsive_image{width: 100%;height: auto;}
+    .content img{display: block;clear: both;float: none !important;max-width: 300px;height: auto;}
+	table.contacts.limited_width{width: 300px;}
+    table.contacts tr td, table.red_banner tr td{display: block;}
+}

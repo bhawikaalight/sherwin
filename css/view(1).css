@@ -1,0 +1,18 @@
+.eligibility-info-container{position: relative;width: 100%;text-align: center;margin-bottom: 4px;}
+    .eligibility-info-container .eligibility_dropdown_title{font-weight: bold;color: #fff;font-size: 16px;padding: 20px;box-sizing: border-box;background: #0167b1;cursor: pointer;}
+    .eligibility-info-container .eligibility_dropdown_title.blue{background: #0167b1;}
+        .eligibility-info-container .eligibility_dropdown_title.blue:hover{background: #004EB1;}
+    .eligibility-info-container .eligibility_dropdown_title.red{background: #ef4135;}
+        .eligibility-info-container .eligibility_dropdown_title.red:hover{background: #D6281C;}
+    .eligibility-info-container .eligibility_dropdown_title.green{background: #17a120;}
+        .eligibility-info-container .eligibility_dropdown_title.green:hover{background: #008807;}
+    .eligibility-info-container .eligibility_dropdown_title.orange{background: #ffa901;}
+        .eligibility-info-container .eligibility_dropdown_title.orange:hover{background: #E69000;}
+    .eligibility-info-container .eligibility_dropdown_content{box-sizing: border-box;padding: 10px;background: #e4eaf6;}
+    .eligibility-info-container .eligibility_dropdown_content p, .eligibility-info-container .eligibility_dropdown_content ul li{font-size: 14px;line-height: 18px;}
+
+/*Phone*/
+/* Phone width is 280-320px in portrait */
+@media screen and (max-width:767px) {
+    .eligibility-info-container .eligibility_dropdown_title{padding: 10px 20px;}
+}
